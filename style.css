@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+
+body {
+	background-color: rgba(51,255,212, 0.5);
+	font-family: 'Roboto Mono', monospace;	
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  height: 75px;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 1.2em;
+  line-height: 60px;
+  height: 75px;
+  width: 275px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+ }
+
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
